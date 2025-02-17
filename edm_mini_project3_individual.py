@@ -46,7 +46,7 @@ from pymongo import MongoClient
 
 # Mongo DB User Connection Details
 
-client = MongoClient("mongodb+srv://aditag96:agarwal1@edmminiproject3.ji0w3.mongodb.net/")
+client = MongoClient("")
 db = client["bonk"]
 collection = db["trades-28-nov"]
 
